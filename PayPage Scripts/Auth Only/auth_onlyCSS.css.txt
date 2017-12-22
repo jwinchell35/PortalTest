@@ -1,0 +1,719 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%
+}
+
+body
+{
+	font-family: verdana, arial, sans-serif;
+}
+
+/*  ----------------------------------------------------------- 
+---
+---   Header/Footer CSS 
+---
+--------------------------------------------------------------- */
+
+table
+{
+	border-collapse: collapse;
+}
+
+table td
+{
+	border-collapse: collapse;
+	padding: 0;
+	vertical-align: top;
+}
+
+#mainTable
+{
+	background-color: #ffffff;
+	height: 100%;
+	width: 100%;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#headerTable
+{
+	width: 100%; 
+	height: 100%;
+	background: url(../../images/headerbkgnd.gif) center right no-repeat;
+}
+
+#headerRow
+{
+    height:85px;
+}
+
+#headerDivRow
+{
+	height: 79px;
+}
+
+#headerDiv
+{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#headerBar
+{
+	background : url(../../images/topbarspn.gif) repeat;
+	height: 6px;
+	vertical-align: middle;
+}
+
+#hdrLogoImg
+{
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	background: url(../../images/slogo.gif) center left no-repeat;
+	height: 75px;
+	width: 150px;
+}
+
+#hdr0Lbl
+{
+	color: #1834C4; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	display: block;
+	margin-top: 30px;
+}
+
+#hdrHprLnk
+{
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	color: #1834C4; 
+	text-decoration: none;
+	font-size: 10pt; 
+}
+#hdrHprLnk:hover {color: #009900; text-decoration: underline;}
+
+#footerCol
+{
+	vertical-align: bottom;
+}
+
+#footerDiv
+{
+	position: relative;
+	width: 100%;
+	height: 1em;
+	text-align: right;
+}
+
+#footerTable 
+{
+	width: 100%; 
+	height: 100%;
+}
+
+#ftr0Lbl
+{
+	position: relative;
+	bottom: 5px;
+	right: 5px; 
+	width: 200px;
+	text-align: right;
+	color: #11278F;
+	font-size: 8pt; 
+}
+
+#footerBarRow
+{
+	background-image: url(../../images/bbarslice.gif); 
+	width: 100%;
+	height: 20px;
+}
+
+.copyright
+{
+	font-size: 9px;
+	color: black;
+	white-space: nowrap;
+}
+
+#footerBar
+{
+	background: url(../../images/bottombar-nohome.gif) center right no-repeat;
+	text-align: right;
+	height:20px;
+	width:700px;
+}
+
+/*  ----------------------------------------------------------- 
+---
+---   End Header/Footer CSS 
+---
+--------------------------------------------------------------- */
+
+
+/*  ----------------------------------------------------------- 
+---
+---   PayPage CSS 
+---
+--------------------------------------------------------------- */
+
+#processForm
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.hidden {display:none; visibility:hidden;}
+
+#mainDiv
+{
+	position:relative;
+	left:0px; 
+	top:0px;
+}
+
+#first_name, #last_name, #address {width:20em;}
+#city {width:10em;}
+#state {width:2em;}
+#amount, #zip, #check_nbr {width:8em;}
+#account_nbr {width: 14em;}
+#cvv2 {width: 4em;}
+#phone_hm, #phone_cell, #phone_wk {width:8em;}
+#invoice_nbr {width: 20em;}
+
+#user_data_1, #user_data_2, #user_data_3, #user_data_4, #user_data_5, 
+#user_data_6, #user_data_7, #user_data_8, #user_data_9, #user_data_10
+{width: 25em;}
+
+#phoneCellRow, #phoneWKRow, 
+#miscUD2Row, #userData2Row, #miscUD3Row, #userData3Row, #miscUD4Row, #userData4Row, 
+#miscUD5Row, #userData5Row, #miscUD6Row, #userData6Row, #miscUD7Row, #userData7Row,
+#miscUD8Row, #userData8Row, #miscUD9Row, #userData9Row, #miscUD10Row, #userData10Row,
+#chkNumRow, #radio3Row, #cardImageLbl
+{display: none;}
+
+
+/* #firstNameRow, #lastNameRow, #addressRow, #cityStZipRow, */
+#phoneHMRow, #userData1Row, #radioButtonRow, 
+#button2Row, #disclaimerDiv, #cardImageRow
+{display: none}
+
+#amountSpaceRow{display:none;}
+#trantypeSpaceRow{display:none;}
+#button2SpaceRow
+{
+	position: relative;
+	display: block;
+	height: 160px;
+	top: 0px;
+	width: 100%;
+}
+
+#swipeCmd
+{
+	position: absolute;
+	right: 30px;
+	width: 220px;
+	top: 0px;
+	text-align: right;
+	display: none;
+}
+
+#monthDDL {left: 5px;}
+#yearDDL {left: 5px;}
+
+.hyprLink
+{
+	position: relative;
+	left: 10px;
+	color: #11278F; 
+	font-size: 8pt; 
+}
+
+#acctTypeSLbl, #acctTypeCLbl 
+{
+	text-align: left;
+	width: 75px;
+}
+
+.horzRule {position: relative; height:20px; display: none;}
+
+.Row
+{
+	position: relative;
+	margin-top: 5px;
+}
+
+.spacerRow {display:none; height:25px;}
+
+.mainLabel 
+{
+	position: relative;
+	left: 0px;
+	width: 150px;
+	text-align: right;
+	color: #11278F; 
+	font-size: 10pt; 
+	border : 0px;
+	font-family: verdana, arial, sans-serif;
+}
+
+.mainTextBox 
+{
+	position:relative;
+	left:5px;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: left;
+	border : 1px solid #000000;
+	font-size: 10pt; 
+}
+
+#miscMessageRow 
+{
+	background-color: #E0E0E0;
+	border-color: #880000;
+	border-style: solid;
+	border-width: 2px;
+	font-size: 10pt; 
+	width: 900px;
+	left: 10px;
+	position: relative;
+}
+
+#imgMessage 
+{ 
+	width: 12pt; 
+	height: 12pt;
+}
+
+#miscMessage1
+{
+	font-size: 12pt; 
+	padding: 5px;
+}
+
+#miscAppMessage, #miscMessage2 {padding: 5px;}
+#miscSpaceRow2 {height: 8px;}
+#miscMessageSpacerRow {height: 10px;}
+
+.mainValidationLbl
+{
+	left: 155px;
+	width: 500px;
+	color: #FF0000;
+	padding: 3px;
+	font-size: 10pt; 
+	height: 1em;
+	font-family: verdana, arial, sans-serif;
+	position: relative;
+}
+
+#headerSpaceRow
+{
+	display: inline;
+	height: 5px;
+}
+
+.miscRow {position:relative; height:25px; display:none;}
+
+#radioLbl {left:20px;}
+
+#miscCardImageRow{display:none;}
+
+#miscCardImageLbl
+{
+	left: 10px;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+#cardImageRow 
+{
+	position: relative;
+	margin-left: 20px;
+	white-space: nowrap;
+}
+
+.cardImage
+{
+	position: relative;	
+	width: 45pt;
+}
+
+#disclaimerSpaceRow {display: inline; height:3px;}
+
+#achDisclaimerPrint{ left:160px;}
+
+#achDisclaimerTxt
+{
+	position: relative;
+	left: 160px;
+	width: 700px;
+	height: 50px;
+}
+
+#debitDisclaimerTxt
+{
+   position: relative;
+   display: block;
+	left: 160px;
+	width: 700px;
+	height: 50px;
+	text-align: left;
+}
+
+.miscLabel 
+{
+	position:relative;
+	font-size: 12pt; 
+	font-weight:bold;
+	color: #11278F;
+	font-family: verdana, arial, sans-serif;
+	border:0px;
+	width:25em;
+}
+
+#buttonRow, #button2Row 
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height:30px;
+	margin: 0;
+	padding:0;
+}
+
+#submit2Btn {position:absolute; top:10px; left:10px;}
+#reset2Btn {position:absolute; top:10px; left:100px;}
+#cancel2Btn {position:absolute; top:10px; right:30px;}
+
+
+#buttonRow{width: 100%; text-align: center;}
+#submitBtn {}
+#resetBtn {}
+#cancelBtn {}
+
+
+.mainButton
+{
+	font-weight: bold;
+	width: 75px;
+	background-color: #eeeeee;
+	color: #3366cc;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #000000;
+	font-size: 9px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*  ----------------------------------------------------------- 
+---
+---   End PayPage CSS 
+---
+--------------------------------------------------------------- */
+
+
+/*  ----------------------------------------------------------- 
+---
+---   Receipt Header/Footer CSS 
+---
+--------------------------------------------------------------- */
+
+#headerTableRcpt {height:100%; width:100%;}
+
+#headerRowRcpt
+{
+	background: url(../../images/headerbkgnd.gif) center right no-repeat;
+	height:85px;
+}
+
+
+#headerDivRowRcpt {height:75px;}
+
+#headerDivRcpt
+{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#headerBarRcpt
+{
+	background : url(../../images/topbarspn.gif) repeat;
+	height: 6px;
+	vertical-align: middle;
+}
+
+#hdrLogoImgRcpt
+{
+	position: absolute;
+	left: 5px;
+	top: 0px;
+	height: 75px;
+	width: 150px;
+	background: url(../../images/slogo.gif) center left no-repeat;
+}
+
+#hdr0LblRcpt
+{
+	color: #1834C4; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	display: block;
+	margin-top: 30px;
+}
+
+#hdrHprLnkRcpt
+{
+	position: absolute;
+	top: 0px;
+	right: 30px;
+	color: #1834C4; 
+	text-decoration: none;
+	font-size: 10pt; 
+	font-family: verdana, arial, sans-serif;
+}
+
+#hdrHprLnkRcpt:hover {color:#009900; text-decoration:underline;}
+
+#footerDivRcpt
+{
+	position:relative;
+	width: 100%;
+	height: 1em;
+	text-align: right;
+}
+
+#footerColRcpt
+{
+	vertical-align: bottom;
+}
+
+
+#footerTableRcpt { width:100%; height:100%;}
+
+#footerDivRowRcpt{width:100%}
+
+#ftr0LblRcpt
+{
+	position: relative;
+	bottom: 5px;
+	right: 5px; 
+	width: 200px;
+	text-align: right;
+	color: #11278F;
+	font-size: 8pt; 
+}
+
+#footerBarRowRcpt
+{
+	background-image: url(../../images/bbarslice.gif);
+	width:100%;
+	height: 20px;
+    
+}
+
+.copyrightRcpt
+{
+	font-size: 9px;
+	color: black;
+	white-space: nowrap;
+}
+
+#footerBarRcpt
+{
+	background: url(../../images/bottombar-nohome.gif) center right no-repeat;
+	text-align: right;
+	height:20px;
+	width:700px;
+}
+
+/*  ----------------------------------------------------------- 
+---
+---   End Receipt Header/Footer CSS 
+---
+--------------------------------------------------------------- */
+
+
+/*  ----------------------------------------------------------- 
+---
+---   Receipt CSS 
+---
+--------------------------------------------------------------- */
+
+#RcptRowHidden {height: 5px;}
+
+#RecptBtnRow {vertical-align:middle; text-align:center;}
+
+.RecptBtn
+{
+	position: relative;
+	font-weight: bold;
+	width: 110px;
+	height: 35px;
+	background-color: #eeeeee;
+	color: #3366cc;
+	text-align : center;
+	vertical-align: middle;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #000000;
+}
+
+#resultsDiv
+{
+	position: relative;
+	width: 400px;
+	height: 175px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#resultImgRow {position: relative; height: 40px;}
+
+#respTxtRow {height:30px;}
+
+#responseTextLbl 
+{
+	position: relative;
+	width: 350px;
+	color: #1834C4; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	border : 0px;
+	font-family: verdana, arial, sans-serif;
+	text-align: center;
+}
+
+.mainRow
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.respLabel 
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 190px;
+	text-align: right;
+	color: #11278F; 
+	font: normal 10pt Verdana, Arial, sans-serif;
+	border : 0px;
+}
+
+.respTextBox 
+{
+	position: relative;
+	top: 0;
+	left: 5px;
+	width: 188px;
+	color: #11278F;
+	text-align: left;
+	font: normal 10pt Verdana, Arial, sans-serif;
+	border: 0px;
+}
+
+#respAmountLbl, #respAmountTB {font-weight:bold;}
+
+.SpaceRow {height:5px;}
+.RecptSpaceRow {height:10px;}
+
+.RecptRow {position:relative; height:15px; width:100%;}
+
+#RecptPad
+{
+	position: relative;
+	width: 200px;
+	border: 1px solid #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.RecptLeft 
+{
+	position: absolute;
+	text-align: left;
+	background-color: Transparent;
+	color: #11278F; 
+	top: 0px;
+	left: 4px;
+	width: 80px;
+	font-size: 8pt; 
+	border: 0px;
+	font-family: verdana, arial, sans-serif;
+}
+
+.RecptCenter
+{
+	position: absolute;
+	text-align: center;
+	background-color: Transparent;
+	color: #11278F; 
+	left: 0px;
+	width: 100%;
+	font-size: 10pt; 
+	border: 0px;
+	font-family: verdana, arial, sans-serif;
+}
+
+.RecptRight
+{
+	position: absolute;
+	text-align: right;
+	background-color: Transparent;
+	color: #11278F; 
+	top: 0px;
+	right: 4px;
+	width: 120px;
+	font-size: 8pt; 
+	border: 0px;
+	font-family: verdana, arial, sans-serif;
+}
+
+#guid{width:174px;}
+
+#usrData1Row, #usrData2Row, #usrData3Row, #usrData4Row, #usrData5Row,
+#usrData6Row, #usrData7Row, #usrData8Row, #usrData9Row, #usrData10Row
+{display:none;}
+
+#tran_amountLbl, #tran_amount {font-weight:bold; font-size:10pt;}
+
+#signatureLblRow{text-align:center;}
+#signatureLineRow{height:5px; width:100%;} 
+#signatureLine
+{
+	position: relative;
+	border-top: 1px dashed #3366cc; 
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	height:2px;
+	width:90%
+}
+
+#signature {font-size:8pt;}
+
+/*  ----------------------------------------------------------- 
+---
+---   End Receipt CSS 
+---
+--------------------------------------------------------------- */
+
