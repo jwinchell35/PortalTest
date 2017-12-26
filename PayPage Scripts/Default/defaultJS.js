@@ -104,11 +104,12 @@ function initPage()
 	amt = document.getElementById('amount');
 	amt.readOnly = 'readonly';
 	amt.tabIndex = -1;
-			document.getElementById('amount').style.border = '0';
-            document.getElementById('amountRow').style.display = 'inline';
+  document.getElementsById('amountLbl').style.display = "inline";
+	document.getElementById('amount').style.border = '0';
+  document.getElementById('amount').style.display = 'inline';
 	document.getElementById('user_data_1').style.display = 'none';
 	document.getElementById('userData1Lbl').style.display = 'none';
-	
+
 
 	document.getElementById('invoiceNumLbl').value = 'Invoice Number:';
 	document.getElementById('radioLbl').value = 'Transaction Type';
