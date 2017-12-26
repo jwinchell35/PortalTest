@@ -104,7 +104,7 @@ function initPage()
 	amt = document.getElementById('amount');
 	amt.readOnly = 'readonly';
 	amt.tabIndex = -1;
-	if(document.getElementById('tran_code').value = 'Sales')
+	if(document.getElementById('User_Data_7').value = 'SALE')
 	{
 		document.getElementById('amount').style.border = '0';
             document.getElementById('amountRow').style.display = 'inline';
