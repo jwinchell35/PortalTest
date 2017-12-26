@@ -88,7 +88,7 @@ function initPage()
 	*/
 	document.getElementById('userData1Lbl').value = 'User Data 1:';
 	document.getElementById('user_data_1').style.display = 'none';
-	document.getElementById('userData1Lbl').style.display = 'none';
+	document.getElementById("userData1Lbl').style.display = 'none';
 
 	document.getElementById('creditCardLbl').value = 'Card Number:';
 	document.getElementById('expDateLbl').value = 'Expiration Date:';
@@ -109,8 +109,8 @@ function initPage()
 	{
 		document.getElementById('amount').style.border = '0';
             document.getElementById('amountRow').style.display = 'inline';
-document.getElementById('user_data_1').style.display = 'none';
-	document.getElementById('userData1Lbl').style.display = 'none';
+	document.getElementById('user_data_1').style.display = 'none'
+	document.getElementById("userData1Lbl').style.display = 'none'
 	}
 	
 	document.getElementById('invoiceNumLbl').value = 'Invoice Number:';
