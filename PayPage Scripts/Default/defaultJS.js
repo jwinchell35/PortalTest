@@ -104,14 +104,12 @@ function initPage()
 	amt = document.getElementById('amount');
 	amt.readOnly = 'readonly';
 	amt.tabIndex = -1;
-	if(document.getElementById('User_Data_7').value = 'SALE')
-	{
-		document.getElementById('amount').style.border = '0';
+			document.getElementById('amount').style.border = '0';
             document.getElementById('amountRow').style.display = 'inline';
 	document.getElementById('user_data_1').style.display = 'none';
 	document.getElementById('userData1Lbl').style.display = 'none';
-	}
 	
+
 	document.getElementById('invoiceNumLbl').value = 'Invoice Number:';
 	document.getElementById('radioLbl').value = 'Transaction Type';
 	document.getElementById('radio1Lbl').value = 'Check Card';
@@ -141,7 +139,7 @@ function initPage()
 
 	// Footer Controls
 	document.getElementById('ftr0Lbl').innerHTML = "Powered by EPX (<a href='javascript:showEPX();'>www.epx.com</a>)";
-	
+
 	document.getElementById('mainDiv').style.display = 'block';
 }
 
