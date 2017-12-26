@@ -37,6 +37,7 @@ function resetBtn_Click()
 	document.getElementById('user_data_1').value = '';
 	document.getElementById('declinedSP').innerHTML = '';
 
+	document.getElementById('user_data_1').style.display = 'none'
 	document.getElementById('miscMessageRow').style.display = 'none';
 	document.getElementById('miscMessageSpacerRow').style.display = 'none';
 	document.getElementById('first_name_msg').style.display = 'none';
@@ -86,7 +87,8 @@ function initPage()
 		of their choosing.  Define user data labels here.
 	*/
 	document.getElementById('userData1Lbl').value = 'User Data 1:';
-	
+	document.getElementById('user_data_1').style.display = 'none'
+
 	document.getElementById('creditCardLbl').value = 'Card Number:';
 	document.getElementById('expDateLbl').value = 'Expiration Date:';
 	document.getElementById('cvv2Lbl').value = 'CVV Value:';
@@ -102,6 +104,11 @@ function initPage()
 	amt = document.getElementById('amount');
 	amt.readOnly = 'readonly';
 	amt.tabIndex = -1;
+	if(document.getElementById('tran_code').value = 'Sales')
+	{
+		document.getElementById('amount').style.border = '0';
+            document.getElementById('amountRow').style.display = 'inline';
+	}
 	
 	document.getElementById('invoiceNumLbl').value = 'Invoice Number:';
 	document.getElementById('radioLbl').value = 'Transaction Type';
