@@ -103,7 +103,7 @@ function initPage()
 	amt = document.getElementById('amount');
 	amt.readOnly = 'readonly';
 	amt.tabIndex = -1;
-  document.getElementsById('amountLbl').style.display = "inline";
+  document.getElementById('amountLbl').style.display = "inline";
 	document.getElementById('amount').style.border = '0';
   document.getElementById('amount').style.display = 'inline';
 
