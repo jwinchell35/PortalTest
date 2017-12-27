@@ -107,6 +107,7 @@ function initPage()
 	document.getElementById('amount').style.border = '0';
   document.getElementById('amount').style.display = 'inline';
   document.getElementById('amountRow').style.display = "inline";
+  document.getElementById('user_data_1').style.display = "none";
 
 
 
