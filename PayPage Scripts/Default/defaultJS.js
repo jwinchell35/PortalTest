@@ -82,6 +82,9 @@ function initPage()
 	document.getElementById('cityStZipLbl').value = 'City,St,Zip:';
 	document.getElementById('phoneHMLbl').value = 'Home Phone:';
 
+document.getElementById('submit2Btn').style.display = 'none';
+document.getElementById('reset2Btn').style.display = 'none';
+document.getElementById('cancel2Btn').style.display = 'none';
 	/*
 		EPX supports user data fields, fields our merchants can populate with information
 		of their choosing.  Define user data labels here.
