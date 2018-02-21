@@ -118,8 +118,8 @@ document.getElementById('cancel2Btn').style.display = 'none';
 	document.getElementById('radioLbl').value = 'Transaction Type';
 	document.getElementById('radio1Lbl').value = 'Check Card';
 	document.getElementById('radio2Lbl').value = 'Credit';
-	document.getElementById('radio3Lbl').value = 'Debit';
-	document.getElementById('radio4Lbl').value = 'Debit';		// Pinless
+	//document.getElementById('radio3Lbl').value = 'Debit';
+	//document.getElementById('radio4Lbl').value = 'Debit';		// Pinless
 	document.getElementById('radio5Lbl').value = 'ACH';
 
 	// Disclaimer Text
