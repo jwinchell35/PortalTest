@@ -118,9 +118,12 @@ document.getElementById('cancel2Btn').style.display = 'none';
 	document.getElementById('radioLbl').value = 'Transaction Type';
 	document.getElementById('radio1Lbl').value = 'Check Card';
 	document.getElementById('radio2Lbl').value = 'Credit';
-	//document.getElementById('radio3Lbl').value = 'Debit';
-	//document.getElementById('radio4Lbl').value = 'Debit';		// Pinless
+	document.getElementById('radio3Lbl').value = 'Debit';
+	document.getElementById('radio4Lbl').value = 'Debit';		// Pinless
 	document.getElementById('radio5Lbl').value = 'ACH';
+
+	//Hide Debit Button
+	document.getElementById("radio4Row").style.display = "none";
 
 	// Disclaimer Text
 	document.getElementById('achDisclaimerTxt').value = 'BY CLICKING ON THE SUBMIT BUTTON, I AGREE TO THE TERMS AND CONDITIONS OF USING MY BANK ACCOUNT AS A PAYMENT METHOD, WHICH ARE LISTED BELOW, AND AUTHORIZE EPX (OR ITS AGENT) TO DEBIT MY BANK ACCOUNT FOR THE AMOUNT SPECIFIED.\n\nTerms and Conditions\n\nBy choosing to use a bank account as your method of payment, you will be able to complete your payment using any valid United States based financial institution automated clearing house ("ACH") enabled bank account. You are authorizing EPX (or its agent) to debit your bank account for the amount specified. To complete your transaction, EPX, or an agent acting on its behalf, will create an electronic funds transfer or bank draft, which will be presented to your bank or financial institution for payment from your bank account. You agree that: (a) you have read, understand and agree to these Terms and Conditions, and that this agreement constitutes a "writing signed by you" under any applicable law or regulation, (b) you consent to the electronic delivery of the disclosures contained in these Terms and Conditions, (c) you authorize EPX (or its agent) to initiate one or more ACH debit entries (withdrawals) for the specified amount(s) from your bank account, and you authorize the financial institution that holds your bank account to deduct such payments. EPX, in its sole discretion, may refuse this payment option service to anyone or any user without notice for any reason at any time.';
